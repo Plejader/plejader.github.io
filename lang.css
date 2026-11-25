@@ -1,0 +1,5 @@
+/* Przelacznik jezyka PL / EN w prawym gornym rogu - wspolny dla wszystkich stron */
+.lang { position: fixed; top: 12px; right: 12px; display: flex; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; background: #fff; font: bold 14px Arial, sans-serif; z-index: 10; box-shadow: 0 1px 4px rgba(0,0,0,.1); }
+.lang a, .lang span { padding: 6px 12px; text-decoration: none; color: #555; }
+.lang span { background: #01875f; color: #fff; }
+.lang a:hover { background: #f0f0f0; }
